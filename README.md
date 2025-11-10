@@ -200,7 +200,7 @@ Type 2 MAC-IP Advertisement Routes
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
-In the vrf-2 mac-table the Client2 Ethernet bond address is reachable via destination vxlan1.2 - ESI 
+In the vrf-2 mac-table the Client2 Ethernet bond address is reachable via destination vxlan1.2 plus the ESI address (different from a single homed host which would have been vxlan1.2 plus the VTEP plus the VNI).
 
 Client2 Ethernet bond address AA:C1:AB:59:EE:FF
 
