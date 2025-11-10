@@ -3,8 +3,11 @@
 Baseline setup to play with EVPN multi homing (client 2)
 
 Terminology
+
 ES - Ethernet Segment
+
 ESI - Ethernet Segment Identifier (zero means single homed CE)
+
 DF - Designated forwarder, in an all active is the device that forwards BUM traffic from the network into the host
 
 # Overlay, underlay and mgmt 
