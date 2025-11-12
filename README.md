@@ -334,7 +334,7 @@ Only PE's that are connected to the same Ethernet Segment will import these rout
 
 ## Deploying the lab
 
-The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`symmetric.clab.yml`](https://github.com/missoso/srl-symmetric-routing-irb/blob/main/symmetric.clab.yml) file declaratively describes the lab topology.
+The lab is deployed with the [containerlab](https://containerlab.dev) project, where [`mh-evpn.clab.yml`](https://github.com/missoso/srl-mh-l2-evpn/blob/main/mh-evpn.clab.yml) file declaratively describes the lab topology.
 
 ```bash
 # change into the cloned directory
